@@ -1,0 +1,16 @@
+* Should see that the todo items displayed contains {{expectedTodoItem}} {
+    await $$(`
+        todo list
+            any order
+            label, '${expectedTodoItem}'
+    `);
+}
+
+* Should see that the todo list contains items {{todoItems}} {
+    todoItems = todoItems.split(',');
+    let elementsFunction = 'todo list\n    ';
+    for(const item of todoItems) {
+        elementsFunction += `label, '${item.trim()}'\n`
+    };
+    await $(`${elementsFunction}`);
+}

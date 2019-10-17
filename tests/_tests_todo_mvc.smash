@@ -1,0 +1,13 @@
+- Should be able to add an item to the todo list
+    Start with an empty todo list
+
+        Add a todo item called 'Feed the cat'
+
+            Should see that the todo items displayed contains 'Feed the cat'
+
+- Should be able to add additional todo items
+    Start with a todo list containing 'Feed the cat, Take out the garbage'
+
+        Add a todo item called 'Walk the dog'
+
+            Should see that the todo list contains items 'Feed the cat, Take out the garbage, Walk the dog'

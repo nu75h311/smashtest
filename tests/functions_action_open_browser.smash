@@ -1,0 +1,4 @@
+* Open browser
+
+    Open Chrome ! // chromedriver is not behaving well with parallel and typing
+    Open Firefox

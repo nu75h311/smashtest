@@ -1,0 +1,19 @@
+* Start with an empty todo list +
+    Navigate to todoMvc homepage    
+
+* Start with a todo list containing {{todoItems}} +
+    Navigate to todoMvc homepage
+        Add todo items {{todoItems}}
+
+
+* Navigate to todoMvc homepage +
+    Open browser
+        Navigate to 'todomvc.com/examples/dojo/'
+            On todomvc page
+
+* On todomvc page + {
+    props({
+        'new todo box': `.new-todo`,
+        'todo list': `.view`
+    });
+}

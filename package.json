@@ -1,0 +1,27 @@
+{
+  "name": "smashtest-sample",
+  "version": "1.0.0",
+  "description": "Smashtest sample",
+  "main": "index.js",
+  "scripts": {
+    "test": "cd tests && smashtest",
+    "report": "cd tests/smashtest && report.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nu75h311/smashtest.git"
+  },
+  "keywords": [
+    "smashtest",
+    "javascript"
+  ],
+  "author": "Adriano Tanoue",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nu75h311/smashtest/issues"
+  },
+  "homepage": "https://github.com/nu75h311/smashtest#readme",
+  "dependencies": {
+    "smashtest": "^1.4.1-beta"
+  }
+}

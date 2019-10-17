@@ -1,0 +1,10 @@
+* Add a todo item called {{todoItem}} +
+    Type '{{todoItem}}[enter]' into 'new todo box'
+
+* Add todo items {{todoItems}} + {
+    todoItems = todoItems.split(',');
+    for(const item of todoItems) {
+        await browser.type(`${item}[enter]`, 'new todo box');
+    };
+}
+    - Type '{{todoItem}}[enter]' into 'new todo box'

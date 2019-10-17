@@ -1,0 +1,7 @@
+node_modules
+
+# webdrivers
+tests/*driver.exe
+
+# reports
+tests/smashtest
