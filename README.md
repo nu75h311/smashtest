@@ -1,0 +1,2 @@
+# smashtest
+Smashtest sample
