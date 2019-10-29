@@ -10,6 +10,7 @@ Requires:
   - [Firefox](https://github.com/mozilla/geckodriver/releases)  
   - [Edge](https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/)  
   - [IE](https://github.com/SeleniumHQ/selenium/wiki/InternetExplorerDriver)  
+- For chromedriver to behave well with parallel and typing, make sure you follow the [setup](https://smashtest.io/getting-started/setup) to set the `SELENIUM_SERVER_JAR` environment variable.  
 
 ## run
 
